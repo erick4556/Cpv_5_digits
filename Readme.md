@@ -129,7 +129,7 @@ To verify the API is working correctly, you can:
      ```json
      {
        "api_key": "sk-YOUR-OPENAI-KEY",
-       "texts": ["Construction work", "IT consulting services"]
+       "texts": ["Servicios de mantenimiento de parques", "Reparación de carreteras"]
      }
      ```
    - Click **Send** and check the response.
@@ -138,7 +138,7 @@ To verify the API is working correctly, you can:
    ```sh
    curl -X POST "http://localhost:5000/predict" -H "Content-Type: application/json" -d '{
      "api_key": "sk-YOUR-OPENAI-KEY",
-     "texts": ["Construction work", "IT consulting services"]
+     "texts": ["Servicios de mantenimiento de parques", "Reparación de carreteras"]
    }'
    ```
 
